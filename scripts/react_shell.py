@@ -1,0 +1,12 @@
+import pathlib,re
+p=pathlib.Path('index.html');s=p.read_text(encoding='utf-8-sig');body=re.search(r'<body>(.*?)</body>',s,re.S).group(1)
+jsx=body.replace('class=','className=').replace('for=','htmlFor=')
+jsx=re.sub(r'<(input|br)(\s[^>]*|)>',r'<\1\2 />',jsx)
+pathlib.Path('shell.jsx').write_text("import React from 'react';\nexport default function Shell(){return <>"+jsx+'</>}\n',encoding='utf-8')
+p.write_text(re.sub(r'<body>.*?</body>','<body><div id="app"></div></body>',s,flags=re.S),encoding='utf-8')
+p=pathlib.Path('app.js');s=p.read_text(encoding='utf-8-sig');p.write_text('export function initialize(){\n'+s+"\nwindow.addEventListener('margen-reader-note',e=>{$('#note-book').value=e.detail.title;$('#note-text').value=e.detail.text||'';openJournal()});\n}\n",encoding='utf-8')
+p=pathlib.Path('main.jsx');s=p.read_text(encoding='utf-8-sig').replace("import './app.js';","import {initialize} from './app.js';\nimport Shell from './shell.jsx';\nimport {flushSync} from 'react-dom';\nflushSync(()=>createRoot(document.getElementById('app')).render(React.createElement(Shell)));\ninitialize();")
+s=s.replace("if((text+word).length>760)","if((text+word).length+(text.match(/\\n/g)||[]).length*35>760)")
+s=s.replace('setPage(p.getCurrentPageIndex());','setPage(p.getCurrentPageIndex());setMarked(storage.get(\'margen-bookmark-\'+book.id,-1)===p.getCurrentPageIndex());')
+s=s.replace("h('button',{onClick:()=>setIndexOpen(!indexOpen)","h('button',{onClick:()=>{const selection=window.getSelection()?.toString()||'';close();setTimeout(()=>window.dispatchEvent(new CustomEvent('margen-reader-note',{detail:{title:book.title,text:selection}})),0)}},'Tomar nota ✎'),h('button',{onClick:()=>setIndexOpen(!indexOpen)")
+p.write_text(s,encoding='utf-8')

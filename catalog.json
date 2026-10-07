@@ -1,0 +1,230 @@
+[
+  {
+    "id": 2000,
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes",
+    "category": "Clásicos",
+    "pages": 2554,
+    "year": 1605,
+    "mood": "viaje",
+    "description": "La edición reúne las dos partes de las aventuras de don Quijote y Sancho Panza. Un viaje entre la imaginación, el humor y la realidad.",
+    "language": "Español",
+    "colors": [
+      "#e9e5d4",
+      "#b48338",
+      "#f3ead1",
+      "#93432e"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?"
+  },
+  {
+    "id": 17340,
+    "title": "Marianela",
+    "author": "Benito Pérez Galdós",
+    "category": "Narrativa",
+    "pages": 403,
+    "year": 1878,
+    "mood": "calma",
+    "description": "La historia de Nela, una joven que guía a Pablo por el paisaje de las minas de Socartes. Una novela sobre el afecto, las apariencias y la desigualdad.",
+    "language": "Español",
+    "colors": [
+      "#e5e8df",
+      "#174b48",
+      "#f1e8ce",
+      "#ef9a71"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?"
+  },
+  {
+    "id": 25956,
+    "title": "La desheredada",
+    "author": "Benito Pérez Galdós",
+    "category": "Narrativa",
+    "pages": 1038,
+    "year": 1881,
+    "mood": "ideas",
+    "description": "Isidora llega a Madrid convencida de pertenecer a una familia aristocrática. Galdós retrata una ciudad donde las aspiraciones y la realidad chocan.",
+    "language": "Español",
+    "colors": [
+      "#e8dfdc",
+      "#8d443a",
+      "#f4e7ce",
+      "#e5b899"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?"
+  },
+  {
+    "id": 10814,
+    "title": "Leyendas, cuentos y poemas",
+    "author": "Gustavo Adolfo Bécquer",
+    "category": "Poesía",
+    "pages": 1002,
+    "year": 1907,
+    "mood": "viaje",
+    "description": "Antología publicada en 1907, editada por Everett Ward Olmsted. Obras en español, introducción y notas en inglés. Se conserva esta edición íntegra.",
+    "language": "Español / inglés",
+    "colors": [
+      "#dedfe4",
+      "#293b50",
+      "#f0dfbe",
+      "#dbaa57"
+    ],
+    "tag": "Texto completo · Español / inglés",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?"
+  },
+  {
+    "id": 13507,
+    "title": "Cuentos de amor, de locura y de muerte",
+    "author": "Horacio Quiroga",
+    "category": "Cuentos",
+    "year": 1917,
+    "mood": "viaje",
+    "description": "Relatos donde el amor, la naturaleza y el peligro se encuentran. Historias intensas para leer una a una.",
+    "language": "Español",
+    "colors": [
+      "#e7dfd5",
+      "#995f40",
+      "#f6ecd6",
+      "#dca974"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 425
+  },
+  {
+    "id": 17223,
+    "title": "Pepita Jiménez",
+    "author": "Juan Valera",
+    "category": "Narrativa",
+    "year": 1874,
+    "mood": "calma",
+    "description": "Una novela sobre el deseo y la vocación, contada a través de cartas y del encuentro con una joven viuda andaluza.",
+    "language": "Español",
+    "colors": [
+      "#e0e6dd",
+      "#556b50",
+      "#f2e9d0",
+      "#c6ac7a"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 397
+  },
+  {
+    "id": 52894,
+    "title": "Azul…",
+    "author": "Rubén Darío",
+    "category": "Poesía",
+    "year": 1888,
+    "mood": "calma",
+    "description": "Cuentos y poemas donde la música del lenguaje y la imaginación abren las puertas al modernismo.",
+    "language": "Español",
+    "colors": [
+      "#dce3e7",
+      "#34596d",
+      "#f3e7d0",
+      "#e1b465"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 274
+  },
+  {
+    "id": 19898,
+    "title": "La Edad de Oro",
+    "author": "José Martí",
+    "category": "Cuentos",
+    "year": 1889,
+    "mood": "ideas",
+    "description": "Historias, poemas y descubrimientos para los niños de América. Los cuatro números de la publicación reunidos en una edición.",
+    "language": "Español",
+    "colors": [
+      "#e9e4d1",
+      "#ba9c41",
+      "#303c30",
+      "#efdd97"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 426
+  },
+  {
+    "id": 50027,
+    "title": "El sí de las niñas",
+    "author": "Leandro Fernández de Moratín",
+    "category": "Teatro",
+    "year": 1806,
+    "mood": "ideas",
+    "description": "Una comedia en tres actos sobre la libertad de elegir, los afectos y las expectativas familiares.",
+    "language": "Español",
+    "colors": [
+      "#e7dce0",
+      "#7d4154",
+      "#f7e9d9",
+      "#d99494"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 207
+  },
+  {
+    "id": 49836,
+    "title": "Niebla",
+    "author": "Miguel de Unamuno",
+    "category": "Narrativa",
+    "year": 1914,
+    "mood": "ideas",
+    "description": "Augusto Pérez busca sentido entre el amor y la incertidumbre, en una novela que cuestiona sus propios límites.",
+    "language": "Español",
+    "colors": [
+      "#e0e3dc",
+      "#546463",
+      "#efe9dc",
+      "#ad9f83"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 490
+  },
+  {
+    "id": 15206,
+    "title": "Torquemada en la hoguera",
+    "author": "Benito Pérez Galdós",
+    "category": "Narrativa",
+    "year": 1889,
+    "mood": "ideas",
+    "description": "Un prestamista se enfrenta a una crisis que sacude sus certezas. Esta edición incluye otros relatos de Galdós.",
+    "language": "Español",
+    "colors": [
+      "#e7dfd5",
+      "#995f40",
+      "#f6ecd6",
+      "#dca974"
+    ],
+    "tag": "Texto completo · Español",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 444
+  },
+  {
+    "id": 29506,
+    "title": "El sombrero de tres picos",
+    "author": "Pedro Antonio de Alarcón",
+    "category": "Clásicos",
+    "year": 1874,
+    "mood": "viaje",
+    "description": "Un molino, una pareja y un corregidor dan forma a una comedia de enredos, sospechas e identidades cambiadas. Edición anotada.",
+    "language": "Español / inglés",
+    "colors": [
+      "#e0e6dd",
+      "#556b50",
+      "#f2e9d0",
+      "#c6ac7a"
+    ],
+    "tag": "Edición anotada · ES / EN",
+    "prompt": "¿Qué idea de esta lectura se queda contigo?",
+    "pages": 690
+  }
+]
