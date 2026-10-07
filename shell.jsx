@@ -15,4 +15,3 @@ export default function Shell(){return <>
 <dialog id="journal-dialog" aria-label="Bitácora de lectura"><button className="close" aria-label="Cerrar">×</button><p className="eyebrow">PALABRAS QUE SE QUEDAN</p><h2>Tu bitácora<span>.</span></h2><p className="dialog-intro">Tus notas se guardan en este navegador.</p><form id="note-form"><label htmlFor="note-book">Libro o título de la nota</label><input id="note-book" required maxLength="120" placeholder="¿Qué estás leyendo?" /><label htmlFor="note-text">Tu descubrimiento</label><textarea id="note-text" required maxLength="3000" placeholder="Una cita, una idea, algo que no quieres olvidar…" rows="4"></textarea><button className="button dark" type="submit">Guardar nota ↗</button></form><div id="notes"></div></dialog>
 <div id="reader-root"></div><div className="toast" role="status" id="toast"></div>
 </>}
-

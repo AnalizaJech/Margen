@@ -129,5 +129,3 @@ export default function Reader() {
     <footer className="reader-footer"><span>Tu página se guarda automáticamente.</span><a className="download-pdf" href={`${base}books/${book.id}.pdf`} download={`Margen-${book.title.replace(/[^a-záéíóúñ0-9]+/gi,'-')}.pdf`}><span>↓</span> Descargar edición PDF</a><a href={`https://www.gutenberg.org/ebooks/${book.id}`} target="_blank" rel="noopener">Fuente y créditos ↗</a></footer>
   </dialog>;
 }
-
-

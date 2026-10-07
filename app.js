@@ -31,5 +31,3 @@ window.addEventListener('margen-progress',renderShelf);
 $('#note-form').addEventListener('input',()=>{const d=$('#journal-dialog').dataset;if(d.reader==='true'){try{const key='margen-note-draft-'+d.bookId;if($('#note-text').value)localStorage.setItem(key,JSON.stringify({text:$('#note-text').value}));else localStorage.removeItem(key);}catch{}}});
 $('#journal-dialog').addEventListener('close',()=>{delete $('#journal-dialog').dataset.reader});
 }
-
-

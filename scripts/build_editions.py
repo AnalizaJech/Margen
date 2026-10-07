@@ -167,5 +167,3 @@ def build(book):
 if __name__=='__main__':
  for book in CATALOG:build(book)
  pathlib.Path('catalog.json').write_text(json.dumps(CATALOG,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
-
-

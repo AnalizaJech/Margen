@@ -30,5 +30,3 @@ def download(b):
  headings=re.findall(r'<h([1-4])\b[^>]*>(.*?)</h\1>',source.read_text(encoding='utf-8'),re.S|re.I)
  print(num,len(paragraphs),'HEADINGS',[(x,html.unescape(re.sub('<[^>]+>',' ',t)).strip()[:110]) for x,t in headings[:12]],flush=True)
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(download,data))
-
-
